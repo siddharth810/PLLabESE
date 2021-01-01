@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eLib ~ Online Library Management System.</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/responsive.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../static/img/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        #active{
+            background-color: brown;
+            border-radius: 10px;
+        }
+        #contactdiv{
+            display: flex; 
+            flex-direction: row;
+        }
+        @media only screen and (max-width: 1140px){
+            #contactpara{
+                padding-top: 20px;
+                padding-left: 2px;
+            }
+        }
+        @media only screen and (min-width: 1140px){
+            #contactpara{
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar background-nav h-nav-resp" id="home">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="../static/img/logo.png" alt="logo"></div>
+            <li ><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT~US</a></li>
+            <li id="active"><a href="contact.html">CONTACT~US</a></li>
+        </ul>
+
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section class="background-abt firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">Contact Us @eLib</p>
+                <div id="contactdiv">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <p class="text-small" id="contactpara"> 0233-2312101</p>
+                </div>
+                <div id="contactdiv">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <p class="text-small" id="contactpara"> eLibrary2020@gmail.com</p>
+                </div>
+                <br>
+                <p class="text-big">Reach Us @eLib</p>
+                <div>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </div>
+            </div>
+            <!-- <div class="secondHalf">
+                <img src="../static/img/cflogo2.png" alt="image">
+            </div> -->
+        </div>
+    </section>
+
+    <footer class="background-nav">
+        <p class="text-footer">
+            CopyRight &copy; 2020 eLib ~ Online Library Management System. - All Rights Reserved.
+        </p>
+    </footer>
+
+    <script src="../static/js/index.js"></script>
+</body>
+
+</html>

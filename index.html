@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eLib ~ Online Library Management System.</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/responsive.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../static/img/logo.png">
+    <style>
+        #active{
+            background-color: brown;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar background-nav h-nav-resp" id="home">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="../static/img/logo.png" alt="logo"></div>
+            <li id="active"><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT~US</a></li>
+            <li><a href="contact.html">CONTACT~US</a></li>
+        </ul>
+
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">eLib ~ Online Library Management Sys.</p>
+                <p class="text-big">Your Library Now Online @eLib</p>
+                <p class="text-small">Accelerating research discovery to shape a better future</p>  
+                <p class="text-small">Today's research, tomorrow's innovation</p>
+                <div class="buttons">
+                    <button class="btn"><a href="#order">Register @eLib</a></button>
+                    <button class="btn"><a href="#plan">Details @eLib</a></button>
+                </div>
+            </div>
+            <!-- <div class="secondHalf">
+                <img src="../static/img/logo.png" alt="image">
+            </div> -->
+        </div>
+    </section>
+
+    <div>
+        <h1 id="plan" class="text-center"><mark>DETAILS @eLib</mark></h1>
+    </div>
+    <section class="section">
+        <div class="paras">
+            <p class="sectionTag text-big">eLib Mission:</p>
+            <p class="sectionSubTag text-small">The eLibrary strengthen and enhance the teaching, research and service of the University at Albany. The Libraries promote intellectual growth and creativity by developing collections, facilitating access to information resources, teaching the effective use of information resources and critical evaluation skills and offering research assistance.
+
+            </p>
+        </div>
+        <div class="thumbnail">
+            <img src="../static/img/tmp1.jpg" alt="switch image" class="imgFluid">
+        </div>
+    </section>
+
+    <section class="section section-left">
+        <div class="paras">
+            <p class="sectionTag text-big">eLib Objectives:</p>
+            <p class="sectionSubTag text-small">To provide an opportunity for students to develop the skills and attitudes which will encourage school library usage. To provide materials that support the curriculum, student interests, and staff needs as funds are available. To model the integration of technology in the curriculum for students and teachers.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="../static/img/tmp2.jpg" alt="switch image" class="imgFluid">
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="paras">
+            <p class="sectionTag text-big">eLib Future Competitions:</p>
+            <p class="sectionSubTag text-small">Competition law and policy are not always high up the agenda for libraries. As public services, we are interested in overall approaches to the public sector. As part of the research and education infrastructure, we care about policies in these areas. As institutions depending on copyright exceptions and limitations to do our jobs, we care a lot about the rules that apply here.However, competition law and policy do have a major effect on libraries and the world in which they operate. It is therefore an interesting angle for advocacy and lobbying work. It is also a contested area, with ongoing discussions about how to understand and promote competition.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="../static/img/tmp3.jpg" alt="switch image" class="imgFluid">
+        </div>
+    </section>
+
+    <section class="section section-left">
+        <div class="paras">
+            <p class="sectionTag text-big">eLib Tour:</p>
+            <p class="sectionSubTag text-small">The library visits will take place on Tuesday 10th August. Conference participants can book places on the visits described below. All the groups will have a guide, normally a volunteer, who will accompany them on the library visit. The assembly-place for all the library visits is outside the main entrance to Svenska Mässan (the Swedish Exhibition and Congress Centre—SCC), where the guides will gather their groups together. The guides will have signs bearing the name of the library in question. Transportation to some libraries will be by chartered bus, while the mode of transport to other libraries will be trams, regular city buses, or trains.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="../static/img/tmp4.jpg" alt="switch image" class="imgFluid">
+        </div>
+    </section>
+
+    <section class="contact" id="order">
+        <h1 class="text-center"><mark>Be a Member @eLib</mark></h1>
+        <div class="form">
+            <form>
+                <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your Name">
+                <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter Your Phone No">
+                <input class="form-input" type="email" name="email" id="email" placeholder="Enter Your email">
+                <input class="form-input" type="text" name="address" id="address" placeholder="Enter Your Address">
+                <label class="form-input-2" for="quantity">Your Age:</label>
+                <input class="form-input-4" type="number" id="quantity" name="quantity" min="18" max="85">
+                <br>    
+                <label class="form-input-2" for="radiobtn">Gender:</label>
+                <input  type="radio" id="M" name="dept" value="M">
+                <label class="form-input-3" for="M">M</label>
+                <input  type="radio" id="F" name="dept" value="F">
+                <label class="form-input-3" for="F">F</label>
+                <textarea class="form-input" name="description" id="description" cols="30" rows="10" placeholder="Why would you like to join eLib? Pls mention suggestions if any."></textarea>
+                <button class="btn btn-dark">JOIN</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="background-nav">
+        <p class="text-footer">
+            CopyRight &copy; 2020 eLib ~ Online Library Management System. - All Rights Reserved.
+        </p>
+    </footer>
+    <script src="../static/js/index.js"></script>
+</body>
+
+</html>
